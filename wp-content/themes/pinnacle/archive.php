@@ -43,7 +43,6 @@
                     </div>
                     <?php get_search_form(); ?>
                 <?php endif; ?>
-
                 <?php if($summary == 'full'){
                         if($display_sidebar){
                            while (have_posts()) : the_post();

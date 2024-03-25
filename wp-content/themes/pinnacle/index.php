@@ -4,7 +4,7 @@
         <div class="row">
           <div class="main <?php echo esc_attr( pinnacle_main_class() ); ?>  postlist" role="main">
             <div class="entry-content" itemprop="mainContentOfPage">
-            
+    
             <?php if (!have_posts()) : ?>
                 <div class="alert">
                   <?php _e('Sorry, no results were found.', 'pinnacle'); ?>
